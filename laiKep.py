@@ -7,4 +7,4 @@ n = int(input('Số kì tính lãi suất 1 năm: '))
 t = int(input('Số năm: '))
 
 result = tinh_laiKep(p, r, n, t)
-print(result)
+print(f'Kết quả: {result}')
