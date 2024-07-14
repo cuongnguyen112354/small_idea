@@ -69,7 +69,7 @@ else:
    not_complete = []
    level = int(input('Nhập level: '))
 
-   char = str(input('Bạn có muốn xem chi tiết không?\n'))
+   char = str(input('Bạn có muốn xem chi tiết không?\nw '))
 
    if char:
       detail = True
