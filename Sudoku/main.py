@@ -1,7 +1,6 @@
 import subprocess
 import os
-from prepare_data import Prepare
-from handle_data import Handle
+from solve_sudoku import Prepare, Handle
 
 def main(i, data, detail=False):
    problem = Prepare(data)
